@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    /*background: red;*/
+    background-image: linear-gradient(57deg,#1e4d92,#00c6a7);
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(57deg,#00c6a7,#1e4d92);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+nav .logo{
+    width: 50%;
+    height: 100px;
+    font-family: 'tangerine',sans-serif;
+    font-size: 32px;
+    color: #690069;
+    text-shadow: 0px 3px 1px #000000;
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+}
+.menu{
+    width: 50%;
+    height: 100px;
+}
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #c9c9c9;
+}
+.menu ul li:hover{
+    color: #ededed;
+}
+section{
+    display: flex;
+}
+section .leftside{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+}
+.leftside img{
+    width: 100%;
+    height: 500px;
+    padding-top: 70px;
+}
+.rightside{
+    width: 55%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+    padding: 45px;
+    font-family: 'Montserrat',sans-serif;
+    
+}
+.rightside h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+.rightside p{
+    font-size: 1.1rem;
+    padding: 30px 0px;
+}
+.rightside button{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    background-image: linear-gradient(57deg,#00c6a7,#1e4d92);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgba(203, 3, 141, 0.52);
+}
+.rightside button:hover{
+    background-image: linear-gradient(57deg,#1e4d92,#00c6a7);
+}
